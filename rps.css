@@ -1,0 +1,87 @@
+body{
+  margin:0;
+  padding: 0;
+  background-color: #4d4d4d;
+  font-family: 'Staatliches', cursive;
+}
+
+.title{
+  position: relative;
+  font-size: 50px;
+  height: 20%;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 3%;
+  animation: title;
+  animation-fill-mode: forwards;
+  animation-duration: 1s;
+}
+
+@keyframes title {
+  0%{
+    font-size: 50px;
+  }
+  100%{
+    font-size: 65px;
+  }
+}
+
+.scoreboardcontainer{
+  margin-top: 50px;
+  position: relative;
+  width: 50%;
+  height: 200px;
+  background-color: white;
+  margin-left: 25%;
+  border-radius: 100px 100px 100px 100px;
+  border: black 10px solid;
+  text-align: center;
+}
+
+.scoreboard{
+  position: relative;
+  border: gold 10px solid;
+  width: 80%;
+  margin-left: 9.5%;
+  height: 125px;
+  margin-top: 15px;
+  padding-top: 25px;
+}
+
+span{
+  font-size: 75px;
+}
+
+.message{
+  text-align: center;
+  height: 50px;
+  font-size: 45px;
+  color:white;
+}
+
+.choices button{
+  position: relative;
+  width: 125px;
+  height: 125px;
+  border-radius: 50% 50% 50% 50%;
+  border: black 5px solid;
+  display: inline-block;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+button:hover{
+  cursor:pointer;
+  width: 160px;
+  height:160px;
+}
+
+#rock{
+  margin-left: 35%;
+}
+
+#paper{
+  margin-left: 5%;
+  margin-right: 5%;
+}
